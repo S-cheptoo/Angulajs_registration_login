@@ -1,0 +1,22 @@
+<div>
+    <h1>Hi {{vm.user.firstName}}!</h1>
+    <p>Your Profile!!</p>
+    <thead head>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>UserName</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{vm.user.firstName}}</td>
+        <td>{{vm.user.lastName}}</td>
+        <td>{{vm.user.username}}</td>
+      </tr>
+    </tbody>
+    
+    <p>&nbsp;</p>
+    <p><a href="#!/login" class="btn btn-primary" ng-click="vm.alertLogout()">Logout</a></p>
+    </div>
+    
